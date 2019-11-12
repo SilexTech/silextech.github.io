@@ -2,33 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973cbf75-042f-4931-8f38-53ae29bba2d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Stefan.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/compendium/mips.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/blog-post.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/compendium/mips.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/compendium/mips_header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compendium/is.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compendium/pia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compendium/is.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compendium/is_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compendium/pia.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compendium/pia_header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CortexM3.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JSFFlowchart.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JSPFlowchart.vsdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinimaxExample.vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/freelancer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/freelancer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compendium/mips.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/mips.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/compendium/mips.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/compendium/mips.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/compendium/mips_header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/compendium/mips_header.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +58,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io\compendium" />
+      <recent name="C:\Users\Stefan\Desktop\silextech.github.io\img\compendium" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io\css" />
@@ -101,7 +90,11 @@
       <option name="presentableId" value="Default" />
       <updated>1571235205409</updated>
       <workItem from="1571235212614" duration="4442000" />
-      <workItem from="1571920142175" duration="3283000" />
+      <workItem from="1571920142175" duration="5237000" />
+      <workItem from="1572983414363" duration="2251000" />
+      <workItem from="1573039028715" duration="5220000" />
+      <workItem from="1573206215446" duration="1520000" />
+      <workItem from="1573563673452" duration="1126000" />
     </task>
     <servers />
   </component>

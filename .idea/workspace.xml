@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973cbf75-042f-4931-8f38-53ae29bba2d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compendium/pp.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/compendium/pp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/compendium/pp_header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/compendium/pp_header.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompilerAutomata.vsdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ParseTree.vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compendium/is.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/is.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compendium/mips.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/mips.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compendium/pia.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/pia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/blog-post.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/blog-post.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +86,7 @@
       <workItem from="1573206215446" duration="1520000" />
       <workItem from="1573563673452" duration="3007000" />
       <workItem from="1573584280552" duration="1501000" />
-      <workItem from="1574081132173" duration="3078000" />
+      <workItem from="1574081132173" duration="3595000" />
     </task>
     <servers />
   </component>

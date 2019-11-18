@@ -4,5 +4,5 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-post/blob/master/LICENSE)
  */
 body {
-  padding-top: 80px;
+  padding-top: 100px; /* aligning with navbar fixed top*/
 }

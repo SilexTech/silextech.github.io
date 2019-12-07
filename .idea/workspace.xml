@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="973cbf75-042f-4931-8f38-53ae29bba2d0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Multithreading.vsdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compendium/pia.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/pia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compendium/pp.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/pp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compendium/kdp.html" beforeDir="false" afterPath="$PROJECT_DIR$/compendium/kdp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/compendium/kdp_header.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/compendium/kdp_header.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

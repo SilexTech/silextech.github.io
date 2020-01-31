@@ -1,7 +1,12 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Stefan">
     <words>
+      <w>hyperthreading</w>
+      <w>multicore</w>
+      <w>pipelining</w>
       <w>silextech</w>
+      <w>superscalar</w>
+      <w>vliw</w>
     </words>
   </dictionary>
 </component>

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="SilexTech">
+
+  <title>SilexTech - PAR</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Template styles -->
+  <link href="../css/blog-post.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link href="../css/freelancer.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="../css/silextech.css" rel="stylesheet">
+
+  <!-- Browser tab icon -->
+  <link rel="icon" href="../img/avataaars.png">
+
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="../index.html#page-top">SilexTech</a>
+    <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      menu/
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../index.html#compendium">#compendium</a>
+        </li>
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../index.html#about">#about</a>
+        </li>
+        <!--
+        <li class="nav-item mx-0 mx-lg-1">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="../index.html#contact">#contact</a>
+        </li>
+        -->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+
+  <div class="row">
+
+    <!-- Post Content Column -->
+    <div class="col-lg-8">
+
+      <!-- Title -->
+      <h1 class="mt-4">Parallel Computer Systems</h1>
+
+      <!-- Author -->
+      <!--
+      <p class="lead">
+        by
+        <a href="#">Start Bootstrap</a>
+      </p>
+      -->
+
+      <hr>
+
+      <!-- Date/Time -->
+      <p>Posted on 2019-01-21</p>
+
+      <hr>
+
+      <!-- Preview Image -->
+      <img class="img-fluid rounded" src="../img/compendium/par_header.png" alt="PAR header image">
+
+      <hr>
+
+      <!-- Post Content Example -->
+      <!--
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+      <blockquote class="blockquote">
+        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer class="blockquote-footer">Someone famous in
+          <cite title="Source Title">Source Title</cite>
+        </footer>
+      </blockquote>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+      -->
+
+      <h2><a href="https://en.wikipedia.org/wiki/Instruction-level_parallelism">Instruction level parallelism</a></h2>
+      <p>The base model for describing instruction-level parallelism is inspired by network planning. In it, sub-tasks are sometimes connected with dependency relations, which are by their nature anti-symmetrical and which leads to creation of oriented (directed) graphs. Elements of such graph are:</p>
+      <ul>
+        <li>Nodes - representing sub-tasks</li>
+        <li>Edges - representing sub-task dependencies</li>
+      </ul>
+      <p>When talking about parallelization/optimization of code, first algorithms usually considered chunks of code between conditional branches and joins (colloquially <i>jump-ins</i> and <i>jump-outs</i>) in source code. We will call those pieces of code <b>base blocks</b> and define them as chunks of source code that don't have any jump-ins into the code (except before the first instruction) and no branching (except in the last instruction). Following that, last instruction of a basic block is either conditional jump instruction or is followed by a jump-in into the source code. In an effort to generalize this approach and avoid tying ourselves to the concept of an instruction, we'll also introduce the concept of an <b>operation</b> as the minimal activity that generates a result and is a consequence of an unary or binary operation on some data. Finally, we also need to define <b>dynamic trail</b> of program execution as the sequence of operations during the program execution.</p>
+      <h3>Data dependency graphs and types of data dependencies inside the basic block</h3>
+      <p>The most obvious data dependency is the <b>true data dependency</b> as a relation where some data is the output of one operation and the input of another. Existence of operations dependent in such a way introduces the <b><a href="https://en.wikipedia.org/wiki/Hazard_(computer_architecture)#Read_after_write_(RAW)">read-after-write</a></b> (RAW) <a href="https://en.wikipedia.org/wiki/Hazard_(computer_architecture)">data hazard</a>. If we consider an operation to be a <a href="https://en.wikipedia.org/wiki/Reduced_instruction_set_computer">RISC</a> instruction, first two cycles will be <i>fetch</i> and <i>decode</i> phases. That allows partial overlap in the cycles between the operations dependent in this way by the mechanism of <a href="https://en.wikipedia.org/wiki/Operand_forwarding">forwarding</a>, especially if we're using <a href="https://en.wikipedia.org/wiki/Pipeline_(computing)">pipelining</a>.</p>
+      <p>We need to distinguish between <b>direct true data dependency</b>, which implies that the dependent operation directly uses the result of the operation it's dependent on, as opposed to the <b>indirect true data dependency</b> which is the consequence of data dependency relation being transitive.</p>
+
+      <hr>
+
+    </div>
+
+    <!-- Sidebar Widgets Column -->
+    <div class="col-md-4">
+
+      <!-- Search Widget -->
+      <div class="card my-4">
+        <h5 class="card-header">Search</h5>
+        <div class="card-body">
+          <div class="input-group">
+            <label>
+              <input type="text" class="form-control" placeholder="Search for...">
+            </label>
+            <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Go!</button>
+              </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Widget -->
+      <div class="card my-4">
+        <h5 class="card-header">Categories</h5>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-12">
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="is.html">Intelligent Systems</a>
+                </li>
+                <li>
+                  <a href="mips.html">Microprocessor Systems</a>
+                </li>
+                <li>
+                  <a href="pia.html">Internet Application Programming</a>
+                </li>
+                <li>
+                  <a href="pp.html">Compiler Construction</a>
+                </li>
+                <li>
+                  <a href="kdp.html">Concurrent and Distributed Programming</a>
+                </li>
+                <li>
+                  <a href="par.html">Parallel Computer Systems</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Side Widget -->
+      <div class="card my-4">
+        <h5 class="card-header">Sections</h5>
+        <div class="card-body">
+          <ul id="header-list">
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="footer text-center">
+  <div class="container">
+    <div class="row">
+
+      <!-- Footer Location -->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h4 class="mb-4">Location</h4>
+        <p class="lead mb-0">Sazonova 28
+          <br>11000 Belgrade, Serbia</p>
+      </div>
+
+      <!-- Footer Social Icons -->
+      <div class="col-lg-4 mb-5 mb-lg-0">
+        <h4 class="mb-4">Around the Web</h4>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/stefan-stankovi%C4%87-016a43194/">
+          <i class="fab fa-fw fa-linkedin-in"></i>
+        </a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/SilexTech">
+          <i class="fab fa-fw fa-github"></i>
+        </a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://stackoverflow.com/users/4807959/stefan-stankovi%c4%87">
+          <i class="fab fa-fw fa-stack-overflow"></i>
+        </a>
+        <a class="btn btn-outline-light btn-social mx-1" href="https://discord.gg/kKc4cZ4">
+          <i class="fab fa-fw fa-discord"></i>
+        </a>
+      </div>
+
+      <!-- Footer About Text -->
+      <div class="col-lg-4">
+        <h4 class="mb-4">About SilexTech</h4>
+        <p class="lead mb-0"><i>"Jack of all trades looking for a passion to specialise in."</i></p>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Copyright Section -->
+<section class="copyright py-4 text-center text-white">
+  <div class="container">
+    <small>Copyright &copy; Stefan Stanković 2019</small>
+  </div>
+</section>
+
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-to-top d-lg-none position-fixed ">
+  <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+    <i class="fa fa-chevron-up"></i>
+  </a>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="../vendor/jquery/jquery.min.js"></script>
+<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="../js/freelancer.min.js"></script>
+
+</body>
+
+</html>

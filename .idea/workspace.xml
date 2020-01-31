@@ -49,26 +49,26 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Stefan\Desktop\silextech.github.io\compendium" />
+      <recent name="C:\Users\Stefan\Desktop\silextech.github.io\img\compendium" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io\css" />
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io\vendor\bootstrap" />
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io" />
       <recent name="C:\Users\Stefan\Desktop\silextech.github.io\img" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Stefan\Desktop\silextech.github.io\compendium" />
-      <recent name="C:\Users\Stefan\Desktop\silextech.github.io\img\compendium" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -91,6 +91,7 @@
       <workItem from="1573584280552" duration="1501000" />
       <workItem from="1574081132173" duration="4365000" />
       <workItem from="1575720538219" duration="819000" />
+      <workItem from="1579596924262" duration="4653000" />
     </task>
     <servers />
   </component>
@@ -112,5 +113,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1579597099077">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1579597099077" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1579597106414">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1579597106414" />
   </component>
 </project>

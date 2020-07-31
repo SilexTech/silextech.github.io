@@ -69,7 +69,7 @@
     <div class="col-lg-8">
 
       <!-- Title -->
-      <h1 class="mt-4">Intelligent Systems</h1>
+      <h1 class="mt-4">Simple News Web App</h1>
 
       <!-- Author -->
       <!--
@@ -82,12 +82,12 @@
       <hr>
 
       <!-- Date/Time -->
-      <p>Posted on 2019-11-12</p>
+      <p>Updated on 2020-07-14</p>
 
       <hr>
 
       <!-- Preview Image -->
-      <img class="img-fluid rounded" src="../img/compendium/is_header.jpg" alt="IS header image">
+      <img class="img-fluid rounded" src="../img/portfolio/simple_news_we_app_header.jpg" alt="Simple News Web App header image">
 
       <hr>
 
@@ -106,9 +106,68 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
       -->
 
-      <p>Sample text.</p>
-
+      <p>This simple web application is a good introductory example to PHP web-programming. The goal is to present how to make a bare-bones version of a news-sharing site, with some rudimentary social network options. It showcases several basic functionalities and user types. It also presents the most rudimentary way of communication with a DB and usage of PHP <b>session</b>.</p>
+      <h2 id="Technologies">Technologies</h2>
+      Only the barest minimum of programming languages, software and secondary tools were used during the development.
+      <ul>
+        <li><b>Bootstrap</b> - used to create the general outline of the site.</li>
+        <li><b>HTML</b> and <b>CSS</b> - used to adjust the free Bootstrap template.</li>
+        <li><b>PHP</b> - used to validate logins, create and receive specific requests, communicate with the database, determine user privileges and serve the main site content.</li>
+        <li><b>MySQL</b> - used as parameters for <code>mysqli_query</code> function to create, read or delete data (CRUD).</li>
+        <li><b>Wamp64</b> - used to run the required PHP and MySQL services during development.</li>
+        <li><b>GitHub</b> Desktop - used for version control during development.</li>
+        <li><b>PHP Storm</b> by JetBrains - used as the main IDE for coding, managing the database content and image editing.</li>
+      </ul>
+      <h2 id="Use_cases">Use cases</h2>
+      <p>There are several types of users, each of which can have several overlapping use cases.</p>
+      <h3>Guest</h3>
+      <p>Any user not currently logged in is given only the minimal useful functionalities. Every part of the site is still accessible, but they don't have any way to manage the site content.</p>
+      <div class="row">
+        <div class="col-md-6">
+            <img class="img-fluid" id="Image_01" src="../img/portfolio/simple_news_web_app_img01.jpg">
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" id="Image_02" src="../img/portfolio/simple_news_web_app_img02.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted text-center">Image 01 - Articles listed on the landing page.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-muted text-center">Image 02 - Articles filtered by category on the landing page.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img-fluid" id="Image_03" src="../img/portfolio/simple_news_web_app_img03.jpg">
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" id="Image_04" src="../img/portfolio/simple_news_web_app_img04.jpg">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p class="text-muted text-center">Image 03 - Reading an article with user comments.</p>
+        </div>
+        <div class="col-md-6">
+          <p class="text-muted text-center">Image 04 - Registration form with an error message.</p>
+        </div>
+      </div>
+      <p>Guests can browse the website by scrolling through the listed articles, following the links to read more about them (an the comment logged-in users left below) and filter the listed articles by desired category from the menu on the right side. Any user can also do the registration process by filling out the registration form which just requires a unique username and a password.</p>
+      <h3>User</h3> - any user who logs in with a saved username/password combination.
+      <p>Additionally, users have...</p>
+      <h3>Admin</h3> - any user who logs in with a saved username/password and has it's ID list.
       <hr>
+      <h2 id="Links">Links</h2>
+      <ul class="list-unstyled">
+        <li>
+          <a href="https://github.com/SilexTech/Simple-News-Web-App">GitHub repository.</a>
+        </li>
+        <li>
+          <a href="http://silextech94.epizy.com/Simple-News-Web-App/">Live version of the web-app.</a>
+        </li>
+      </ul>
 
     </div>
 
@@ -132,7 +191,7 @@
 
       <!-- Categories Widget -->
       <div class="card my-4">
-        <h5 class="card-header">Categories</h5>
+        <h5 class="card-header">Topics</h5>
         <div class="card-body">
           <div class="row">
             <div class="col-lg-12">
@@ -162,7 +221,9 @@
       <div class="card my-4">
         <h5 class="card-header">Sections</h5>
         <div class="card-body">
-          <ul id="header-list">
+          <ul class="list-unstyled mb-0">
+            <li><a href="#Technologies">Technologies</a></li>
+            <li><a href="#Links">Links</a></li>
           </ul>
         </div>
       </div>

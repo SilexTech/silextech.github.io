@@ -19,7 +19,7 @@
   <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Template styles -->
-  <link href="../css/blog-post.css" rel="stylesheet">
+  <link href="../css/topic.css" rel="stylesheet">
 
   <!-- Theme CSS -->
   <link href="../css/freelancer.min.css" rel="stylesheet">
@@ -82,7 +82,7 @@
       <hr>
 
       <!-- Date/Time -->
-      <p>Updated on 2020-07-14</p>
+      <p>Updated on 2020-10-06</p>
 
       <hr>
 
@@ -106,7 +106,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
       -->
 
-      <p>This simple web application is a good introductory example to PHP web-programming. The goal is to present how to make a bare-bones version of a news-sharing site, with some rudimentary social network options. It showcases several basic functionalities and user types. It also presents the most rudimentary way of communication with a DB and usage of PHP <b>session</b>.</p>
+      <p>This simple web application is a good introductory example to PHP web-programming. The goal is to present how to make a bare-bones version of a news-sharing site, with some rudimentary social network options. It showcases several basic functionalities and user types. It also presents the simplest way to communicate with a DB and to use PHP session.</p>
       <h2 id="Technologies">Technologies</h2>
       Only the barest minimum of programming languages, software and secondary tools were used during the development.
       <ul>
@@ -118,63 +118,23 @@
         <li><b>GitHub</b> Desktop - used for version control during development.</li>
         <li><b>PHP Storm</b> by JetBrains - used as the main IDE for coding, managing the database content and image editing.</li>
       </ul>
-      <h2 id="Use_cases">Use cases</h2>
+      <h2 id="User_types">User types</h2>
       <p>There are several types of users, each of which can have several overlapping use cases.</p>
-      <h3>Guest</h3>
-      <p>Any user not currently logged in is given only the minimal useful functionalities. Every part of the site is still accessible, but they don't have any way to manage the site content.</p>
-      <div class="row">
-        <div class="col-md-6">
-            <img class="img-fluid" id="Image_01" src="../img/portfolio/simple_news_web_app_img01.jpg">
-        </div>
-        <div class="col-md-6">
-          <img class="img-fluid" id="Image_02" src="../img/portfolio/simple_news_web_app_img02.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <p class="text-muted text-center">Image 01 - Articles listed on the landing page.</p>
-        </div>
-        <div class="col-md-6">
-          <p class="text-muted text-center">Image 02 - Articles filtered by category on the landing page.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <img class="img-fluid" id="Image_03" src="../img/portfolio/simple_news_web_app_img03.jpg">
-        </div>
-        <div class="col-md-6">
-          <img class="img-fluid" id="Image_04" src="../img/portfolio/simple_news_web_app_img04.jpg">
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <p class="text-muted text-center">Image 03 - Reading an article with user comments.</p>
-        </div>
-        <div class="col-md-6">
-          <p class="text-muted text-center">Image 04 - Registration form with an error message.</p>
-        </div>
-      </div>
-      <p>Guests can browse the website by scrolling through the listed articles, following the links to read more about them (an the comment logged-in users left below) and filter the listed articles by desired category from the menu on the right side. Any user can also do the registration process by filling out the registration form which just requires a unique username and a password.</p>
-      <h3>User</h3> - any user who logs in with a saved username/password combination.
-      <p>Additionally, users have...</p>
-      <h3>Admin</h3> - any user who logs in with a saved username/password and has it's ID list.
-      <hr>
-      <h2 id="Links">Links</h2>
-      <ul class="list-unstyled">
-        <li>
-          <a href="https://github.com/SilexTech/Simple-News-Web-App">GitHub repository.</a>
-        </li>
-        <li>
-          <a href="http://silextech94.epizy.com/Simple-News-Web-App/">Live version of the web-app.</a>
-        </li>
+      <ul>
+        <li><b>Guest</b> - can browse the site, filter the posts by category, read the posts and comments below and attempt to log-in or register.</li>
+        <li><b>User</b> - in addition to Guests' functionalities, logged-in users can also leave comments under the posts and delete their own comments.</li>
+        <li><b>Admin</b> - in addition to Users' functionalities, logged-in users registered as admins can create new posts and delete any posts or comments on the site.</li>
       </ul>
-
+      <h2 id="Links">Links</h2>
+      <p><a href="https://github.com/SilexTech/Simple-News-Web-App">GitHub repository</a> can he found here. It includes a <code>.sql</code> database export needed for testing.</p>
+      <p><a href="http://silextech94.epizy.com/Simple-News-Web-App/">Live version</a> can be found here, hosted on <a href="https://infinityfree.net">InfinityFree</a>.</p>
     </div>
 
     <!-- Sidebar Widgets Column -->
     <div class="col-md-4">
 
       <!-- Search Widget -->
+      <!--
       <div class="card my-4">
         <h5 class="card-header">Search</h5>
         <div class="card-body">
@@ -188,28 +148,17 @@
           </div>
         </div>
       </div>
+      -->
 
-      <!-- Categories Widget -->
+      <!-- Portfolio items -->
       <div class="card my-4">
-        <h5 class="card-header">Topics</h5>
+        <h5 class="card-header">Portfolio</h5>
         <div class="card-body">
           <div class="row">
             <div class="col-lg-12">
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="is.html">Intelligent Systems</a>
-                </li>
-                <li>
-                  <a href="mips.html">Microprocessor Systems</a>
-                </li>
-                <li>
-                  <a href="pia.html">Internet Application Programming</a>
-                </li>
-                <li>
-                  <a href="pp.html">Compiler Construction</a>
-                </li>
-                <li>
-                  <a href="kdp.html">Concurrent and Distributed Programming</a>
+                  <a href="simple_news_web_app.html">Simple News Web App</a>
                 </li>
               </ul>
             </div>
@@ -223,6 +172,7 @@
         <div class="card-body">
           <ul class="list-unstyled mb-0">
             <li><a href="#Technologies">Technologies</a></li>
+            <li><a href="#User_types">User types</a></li>
             <li><a href="#Links">Links</a></li>
           </ul>
         </div>
@@ -276,11 +226,13 @@
 </footer>
 
 <!-- Copyright Section -->
+<!--
 <section class="copyright py-4 text-center text-white">
   <div class="container">
     <small>Copyright &copy; Stefan Stanković 2019</small>
   </div>
 </section>
+-->
 
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-to-top d-lg-none position-fixed ">

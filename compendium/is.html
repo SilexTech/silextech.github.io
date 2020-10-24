@@ -89,7 +89,7 @@
       <!-- Preview Image -->
       <img class="img-fluid rounded" src="../img/compendium/is_header.jpg" alt="IS header image">
 
-      <hr>
+
 
       <!-- Post Content Example -->
       <!--
@@ -105,8 +105,30 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
       -->
-
-      <p>Sample text.</p>
+      <hr>
+      <h2 id="Search_algorithms">Search algorithms</h2>
+      <div class="row">
+        <div class="col-md-9">
+          <canvas id="search-algorithm-canvas"></canvas>
+        </div>
+        <div id="search-algorithm-inputs" class="col-md-3">
+          <input id="node-radio" type="radio" name="object-type" checked> Node<br>
+          <input id="edge-radio" type="radio" name="object-type"> Edge<br>
+          <select id="algorithm">
+            <option value="bfs" selected>BFS</option>
+            <option value="dfs">DFS</option>
+            <option value="bf">Best-first</option>
+            <option value="bnb">Branch-and-bound</option>
+            <option value="hc">Hill-climbing</option>
+            <option value="a*">A*</option>
+          </select><br>
+          <input type="checkbox" id="dynamic" disabled> dynamic programming<br>
+          <button id="play">></button>
+          <button>||</button>
+          <button>[]</button><br>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
 
       <hr>
 
@@ -237,6 +259,7 @@
 
 <!-- Custom scripts for this template -->
 <script src="../js/freelancer.min.js"></script>
+<script src="../js/compendium/is.js"></script>
 
 </body>
 

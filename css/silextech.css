@@ -1,28 +1,8 @@
+.navbar-brand, .page-section-heading, .masthead-heading, .masthead-subheading, .lead, .form-group {
+    font-family: Consolas, monospace;
+}
+
 .nav-link {
     font-family: Consolas, monospace;
     text-transform: lowercase;
-}
-
-.navbar-brand {
-    font-family: Consolas, monospace;
-}
-
-.page-section-heading {
-    font-family: Consolas, monospace;
-}
-
-.masthead-heading {
-    font-family: Consolas, monospace;
-}
-
-.masthead-subheading {
-    font-family: Consolas, monospace;
-}
-
-.lead {
-    font-family: Consolas, monospace;
-}
-
-.form-group {
-    font-family: Consolas, monospace;
 }
